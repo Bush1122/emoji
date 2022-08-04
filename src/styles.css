@@ -1,0 +1,79 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  font-weight: 400;
+  line-height: 1.666;
+  background-color: azure;
+  color: #555;
+}
+h1 {
+  font-weight: 900;
+  font-size: 500%;
+  text-align: center;
+  margin-top: 4rem;
+  color: #fff;
+  line-height: 1.2rem;
+}
+h1 span {
+  padding: 5px, 15px;
+  background-color: #2ec2b0;
+}
+.term {
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: white;
+  margin: 50px 0px;
+  height: 200px;
+  box-shadow: 0 2px 5px #ccc;
+  text-align: center;
+  max-width: 270px;
+  min-height: 270px;
+}
+dt {
+  color: #2ec2b0;
+  font-weight: 900;
+}
+dt span {
+  font-size: 200;
+  font-weight: 200%;
+}
+
+.Dictionary {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 4rem auto;
+  justify-content: space-between;
+}
+.emoji {
+  margin-top: 0 auto 20px;
+  display: block;
+  font-size: 400%;
+}
+dd {
+  margin-left: 0px;
+  font-size: 92.5%;
+  font-weight: 300;
+  margin-top: 14px;
+}
+dd dt {
+  margin-bottom: 1rem;
+}
+dd dt {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  font-size: inherit;
+}
+dd d1 {
+  max-width: 15rem;
+  font-weight: 90%;
+  letter-spacing: 1.333;
+}
+
+dd d1 .term {
+  margin-bottom: 1rem;
+}
